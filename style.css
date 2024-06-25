@@ -1,2 +1,37 @@
-nav ul{list-style-type: none;}
+header {display: flex; justify-content: space-between; align-items: center;}
+header .logo {width: 45px; height: 45px;}
+nav ul{list-style-type: none; display:flex; gap:16px;}
+
+.we-design{display: flex; align-items: center; justify-content: flex-end; height: 600px;}
+
+.we-design article{width: 400px;}
+
+.about-us{display: flex; flex-direction: column; align-items: center; justify-content: center; height: 400px;}
+
+.about-us article{width: 400px; text-align: center;}
+
+.skills{display: flex; align-content:center ; justify-content: flex-start;}
+
+.skills article{width:500px; text-align: left;}
+
+.skills .percentage{display:flex; text-align: left; gap:20px;}
+
+.statistics{display: flex; justify-content: space-evenly;}
+
+.single-statistic{display: flex;}
+
+.paragraphs-and-hours{display: flex; flex-direction: column;}
+
+.test{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.bar{background-color: #aaa; width: 400px;}
+.bar-value{background-color:cyan ; height: 4px;}
+
+
+
+
+.our-work{display: flex; flex-direction: column; align-items: center; justify-content: center; height: 400px;}
+
+.our-work article {width: 400px; text-align: center;}
+
 footer ul{list-style-type: none;}
