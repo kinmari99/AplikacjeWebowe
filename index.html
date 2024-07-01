@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background">
     <header>
         <img src="icons/logo.png" alt="Logo" class="logo">
     <nav>    
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Process</li>
-            <li>Services</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+        <ul class="navigation">
+            <li class="list-item">Home</li>
+            <li class="list-item">About</li>
+            <li class="list-item">Work</li>
+            <li class="list-item">Process</li>
+            <li class="list-item">Services</li>
+            <li class="list-item">Testimonials</li>
+            <li class="list-item">Contact</li>
         </ul>
     </nav>
     </header>
@@ -30,6 +31,7 @@
         <button>CONTACT US</button>
         </article> 
     </section>
+    </div>
     <section class="about-us">
         <article>
         <h2>About Us</h2> <p>Divide have don't man wherein air fourth. Own itself make
@@ -77,7 +79,13 @@
         </article>
         
     </section>
-    <section></section>
+    
+    <section class="video">
+
+        <iframe width="1000" height="550" src="https://www.youtube.com/embed/KDJfBN9mu70?si=cO7PLlDf-tY2jpWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+  
     <section class="test">
         <div class="single-statistic">
             <img src="icons/Diamond.png" alt="Diamond">
@@ -118,43 +126,47 @@
         on sizable first project and am looking forward to start the next one asap."
 
         </cite>
-        <p>MICHAEL HOPKINS</p>
+        <p class="who-said-this">MICHAEL HOPKINS</p>
     </section>
-    <section></section>
-    <section>
+    <section class="partners">
+        <img src="icons/logos.png" alt="All the companies we worked with">
+    </section>
+    <div class="forms">
+    <section class="formularz">
         <h2>Need a Project?</h2> <p>Let us know what you're looking for in an agency.
     We'll take a look and see if this could be the start of something beautiful.
         <form>
 
-            <input type="text" value="Your Name"> <input type="email" value="Your Email">
-            <input type="text" value="Your Title">
-            <input type="text" value="Your Comment">
+            <input type="text" placeholder="Your Name" class="name" > 
+            <input type="email" placeholder="Your Email"class="email" >
+            <input type="text" placeholder="Your Title"class="title">
+            <textarea placeholder="Your Comment"class="comment"> </textarea>
             <input type="submit" value="SEND MESSAGE"> 
         </form>
         </p>
     </section>
+    </div>
     <footer>
-    <div>
-        <p><strong>Piroll Design, Inc.</strong></p>
+        <div class="footer-container">
+    <div class="piroll">
+        <h3>Piroll Design, Inc.</h3>
         <p> &copy; 2017 Piroll. All rights reserved.</p>
         <p>Designed by robirurk.</p>
     </div>
-    <div>
-        <p>hello@priolltheme.com</p>
+    <div class="mail">
+        <p>hello@pirolltheme.com</p>
         <p>+44 987 065 908</p>
     </div>
-
-    <div>
-        <ul>
+<div class="list">
+    <div class="todo">
+        <ul class="about">
             <li>Projects</li>
             <li>About</li>
             <li>Services</li>
             <li>Carreer</li>
         </ul>
-    </div>
-        
-    <div>
-        <ul>
+   
+        <ul class="news">
             <li>News</li>
             <li>Events</li>
             <li>Contact</li>
@@ -165,14 +177,15 @@
 
 
     <div>
-        <ul>
+        <ul class="socials">
             <li>Facebook</li>
             <li>Twitter</li>
             <li>Instagram</li>
             <li>Dribble</li>
         </ul>
     </div>
-
+    </div>
+</div>
     </footer>
 
     
