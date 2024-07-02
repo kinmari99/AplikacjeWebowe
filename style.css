@@ -1,6 +1,6 @@
 body{margin: 0; padding: 0;}
 header {display: flex; justify-content: space-between; align-items: center;}
-header .logo {width: 45px; height: 45px; margin-left: 50px;}
+header .logo {width: 25px; height: 25px; margin-left: 90px;}
 nav ul{list-style-type: none; display:flex; gap:16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-right: 50px;}
 .list-item:first-child{color: #10C9C3;}
 
@@ -16,22 +16,32 @@ nav ul{list-style-type: none; display:flex; gap:16px; font-family: 'Segoe UI', T
 .about-us article{width: 400px; text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .about-us p{font-size: 12px; color:gray;}
 
-.skills{display: flex; align-content:center ; justify-content: flex-start;}
+.skills{display: flex; align-content:center ; justify-content: flex-start; height: 500px; background-image: url(background2.jpg); align-items: center;}
 
-.skills article{width:500px; text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style: normal;}
+.skills article{width:500px; text-align: left;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style: normal; margin-left: 90px; line-height: 50px;}
 
 .skills .percentage{display:flex; text-align: left; gap:20px;}
 
-.statistics{display: flex; justify-content: space-evenly; background-color: #10C9C3; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.skills h2{font-size: 28px;}
 
-.single-statistic{display: flex;}
+.words{font-size: 12px;}
 
-.paragraphs-and-hours{display: flex; flex-direction: column;}
+
+
+.statistics{display: flex; justify-content: space-evenly; background-color: #10C9C3; color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; height: 200px; align-items: center;}
+
+.single-statistic{display: flex; height: 50px;}
+
+.paragraphs-and-hours{display: flex; flex-direction: column; margin-left: 20px;  font-weight: 600; }
+
+.paragraphs-and-hours p{margin: 0; margin-bottom: 7px;}
+
+.paragraph{font-size: 11px; }
 
 .test{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
-.bar{background-color: #aaa; width: 400px;}
-.bar-value{background-color:cyan ; height: 4px;}
+.bar{background-color: #cbcbcb; width: 400px;}
+.bar-value{background-color:#10C9C3 ; height: 4px; margin-bottom: 20px;}
 
 
 
@@ -150,6 +160,21 @@ input[type="submit"]{
 
                 .partners img{width: 100%;}
 
+             .placeholders{display:flex; flex-wrap: wrap;}
+
+             .image{flex:1; height: 300px;}
+
+             .image:hover, .load:hover{cursor: pointer; }
+
+.button-load{display: flex;}
+.load{border:0;width: 100%; background-color: #faf6f6; height: 90px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:gray;font-size: 12px; font-weight: 600; }
              
             
+     /*        .picture{position: relative;}
+
+             .picture-test{display:flex; justify-content: center; align-items: center; width: 100%; height:100%; position:  absolute; top: 0; left: 0;  visibility: hidden; transition: 0.5s; }
+
+             .picture:hover .picture-test{visibility: visible; background: rgba(0,0,0,0.7); color:white;} */
+
+             
     
