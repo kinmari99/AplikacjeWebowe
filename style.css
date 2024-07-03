@@ -1,12 +1,13 @@
-body{margin: 0; padding: 0;}
+body{margin: 0; padding: 0; scroll-behavior: smooth;}
 
 .background{background: url(background.jpg); background-position-y:-200px; background-size: cover;}
 
 header {display: flex; justify-content: space-between; align-items: center;}
 .logo {width: 25px; height: 25px; margin-left: 90px;}
 nav ul{list-style-type: none; display:flex; gap:16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-right: 50px;}
-.list-item:first-child{color: #10C9C3;}
 nav li:hover{cursor: pointer;}
+nav a{text-decoration: none; color: #191919;}
+nav a:first-child li{ color: #10C9C3;}
 
 .we-design{display: flex; align-items: center; justify-content: flex-end; height: 600px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-right: 50px;}
 .we-design article{width: 400px; }
